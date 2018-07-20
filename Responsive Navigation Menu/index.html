@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Response menu</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.toggle span').click(function() {
+				$('ul').toggleClass('active');
+			})
+		})
+	</script>
+</head>
+<body>
+	<nav>
+		<div class="toggle">
+			<span>Menu</span>
+		</div>
+		<ul>
+			<li><a href="#" class="active">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Porfolio</a></li>
+			<li><a href="#">Team</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+		<div style="clear:both;"></div>
+	</nav>
+</body>
+</html>
